@@ -1,8 +1,9 @@
 import perrito from './logo.svg';
 import './App.css';
-import NavBar from './componentes/NavBar';
-import Grid from './componentes/Grid';
-import Card from './componentes/Card';
+import NavBar from './componentes/NavBar/NavBar';
+import Grid from './componentes/Grid/Grid';
+import Card from './componentes/Card/Card';
+import Saludo from './componentes/Saludo/Saludo';
 
 function App() {
 	return (
@@ -13,8 +14,9 @@ function App() {
 			<div>
 				<Grid />
 			</div>
+			
 			<div>
-				<Card />
+				<Saludo/>
 			</div>
 		</div>
 	);
